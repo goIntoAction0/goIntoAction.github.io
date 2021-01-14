@@ -1,7 +1,8 @@
 {
   "scripts": {     
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "name": "xin-blog",
   "version": "1.0.0",

@@ -1,5 +1,5 @@
 ---
-# home: true
+home: true
 # heroImage: /hero.png
 # heroText: 大标题
 # tagline: 副标题

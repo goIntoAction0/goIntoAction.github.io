@@ -1,4 +1,5 @@
 module.exports = {
+  base: "/xin-blog/",
   title: '阿星的个人博客！',
   description: 'Just playing around',
   // theme: 'xxx',
