@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "xin-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:goIntoAction0/xin-blog.git",
+  "author": "<zhixing_xiao@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
