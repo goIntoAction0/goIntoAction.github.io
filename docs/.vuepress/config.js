@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/xinBlog/',
   title: '阿星的个人博客！',
   description: '描述：nice！！！',
   searchMaxSuggestions: 10,                         // 搜索结果数量
@@ -19,6 +18,7 @@ module.exports = {
           { text: 'github', link: '/tools/github.html' },
           { text: 'MarkDown', link: '/tools/markdown.html' },
           { text: 'NPM', link: '/tools/npm.html' },
+          { text: 'node', link: '/tool/node.html' },
         ]
       },
       { text: 'vuepress', link: '/vuepress-config/config.html' },
@@ -26,8 +26,8 @@ module.exports = {
       { text: 'JavaScript', link: '/js/' },
       { text: 'Vue', link: '/vue/vue-1.html' },
       { text: 'BUG-LOG', link: '/bug/bug-1.html' },
-      { text: '项目', link: '/project/project.html' },
-      // { text: '算法', link: '/project/project.html' },
+      { text: '项目经验', link: '/project/project.html' },
+      { text: '算法', link: '/Algorithm/' },
     ],
 
     sidebar: 'auto',                                // 自动生成侧栏 值：可以是一个对象或者数组；可以有一个或多个侧边栏
