@@ -1,12 +1,15 @@
 ---
 description: 'git'
+
+# prev: true
+# next: true
 ---
 
 [[toc]]
 
 ### git 安装
 ```js {1}
-console.log('hello world!')
+console.log('hello world!')  // 胡说八道
 ```
 ## 一、git常用命令
 
