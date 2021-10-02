@@ -7,7 +7,7 @@ module.exports = {
 //  主题配置
   themeConfig: {
     logo: '/assets/img/mulu.png',                    // 导航栏logo
-    lastUpdated: '更新时间',                          // 最后更新时间:  string | boolean
+    lastUpdated: '上次更新时间',                          // 最后更新时间:  string | boolean
     // navbar: false,   // 是否禁止所有页面使用导航栏
     // smoothScroll: true,  // 启用页面滚动效果
 
@@ -26,31 +26,40 @@ module.exports = {
 
 
     nav: [                                           // 导航栏链接
-      { text: 'MarkDown', link: '/markDown/markdown-2.html' },
       {
         text: "vuepress",
         items: [
-          { text: 'vuepress-基础使用', link: '/vuepress/index.md'},
-          { text: 'vuepress-默认主题配置', link: '/vuepress/theme_config.md'},
-          { text: 'markdown拓展', link: '/vuepress/vuepress_markdown.md'},
+          { text: 'vuepress-基础使用', link: '/pages/vuepress/index.md'},
+          { text: 'vuepress-配置', link: '/pages/vuepress/index2.md'},
+          { text: 'vuepress-默认主题配置', link: '/pages/vuepress/theme_config.md'},
+          { text: 'markdown-相关', link: '/pages/vuepress/vuepress_markdown.md'},
         ]
       },
+      { text: 'Git', link: '/pages/tools/git.html' },
+      { text: 'MarkDown', link: '/pages/markDown/markdown-2.html' },
       { 
-        text: '开发环境', 
+        text: 'VUE', 
         items: [
-          { text: 'git', link: '/tools/git.html' },
-          { text: 'github', link: '/tools/github.html' },
-          { text: 'NPM', link: '/tools/npm.html' },
-          { text: 'node', link: '/tools/node.html' },
+        { text: 'vue 基本语法', link: '/pages/vue/index.html' },
+
+        ] 
+      },
+      { 
+        text: '开发工具', 
+        items: [
+          { text: 'NPM', link: '/pages/tools/npm.html' },
+          { text: 'Node', link: '/pages/tools/node.html' },
+          { text: 'github', link: '/pages/tools/github.html' },
         ]
       },
       { 
         text: 'others', 
         // ariaLabel: '前端工具 Menu',  // 下拉并分组
         items: [
-          { text: 'CodeSheep', link: '/others/codesheep.html' },
-          { text: '项目经验', link: '/others/project.html' },
-          { text: 'blog写什么', link: '/others/why.html' },
+          { text: 'CodeSheep', link: '/pages/others/codesheep.html' },
+          { text: '项目经验', link: '/pages/others/project.html' },
+          { text: 'blog写什么', link: '/pages/others/why.html' },
+          { text: '留言板', link: '/pages/others/write.html' },
         ]
       },
     ],
@@ -59,6 +68,7 @@ module.exports = {
 
   // MarkDown 配置
   markdown: {
-    lineNumbers: true                               // 显示代码的行号
+    lineNumbers: true,                               // 显示代码的行号
+    // extractHeaders: [ 'h2', 'h3', 'h4' ]
   }
 }
